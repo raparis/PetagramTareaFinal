@@ -1,0 +1,23 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="cardview_corner_radius">4dp</dimen>
+    <dimen name="foto_altura">250dp</dimen>
+    <dimen name="imagen_hueso_width">40dp</dimen>
+    <dimen name="imagen_hueso_height">40dp</dimen>
+    <dimen name="text_padding_left">10dp</dimen>
+    <dimen name="text_padding_right">10dp</dimen>
+    <dimen name="text_margin_left">10dp</dimen>
+    <dimen name="cardView_text_size">20sp</dimen>
+    <dimen name="toolbar_elevacion">4dp</dimen>
+    <dimen name="tamaño_huella">30dp</dimen>
+    <dimen name="tamaño_estrella">40dp</dimen>
+
+    <dimen name="tamaño_huesito_perfil">20dp</dimen>
+    <dimen name="cardView_text_size_perfil">10sp</dimen>
+    <dimen name="foto_altura_cardview_perfil">50dp</dimen>
+
+    <dimen name="autor_margen_superior">50dp</dimen>
+    <dimen name="autor_tamaño_fuente">24sp</dimen>
+</resources>

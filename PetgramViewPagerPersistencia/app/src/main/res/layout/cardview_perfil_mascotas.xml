@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewMascotasPerfil"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="4dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/llMascotasPerfil"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/foto_altura_cardview_perfil"
+            android:id="@+id/imgFotoPerfil"
+            android:src="@drawable/mascota01"
+            />
+
+        <GridLayout
+            android:id="@+id/gridBasePerfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/linearIzquierdoPerfil"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/tvNombreMascotaPerfil"
+                    android:text="Jacky"
+                    android:layout_marginLeft="@dimen/text_margin_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/imagen_hueso_height"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/cardView_text_size_perfil"
+                    android:gravity="center_vertical"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearDerechoPerfil"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="end">
+
+                <TextView
+                    android:id="@+id/tvEstrellasPerfil"
+                    android:text="@string/star_text_sample"
+                    android:layout_marginRight="@dimen/text_margin_left"
+                    android:paddingLeft="@dimen/text_padding_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/imagen_hueso_height"
+                    android:textStyle="normal"
+                    android:textSize="@dimen/cardView_text_size_perfil"
+                    android:gravity="center_vertical"
+                    />
+
+                <ImageView
+                    android:id="@+id/imgHuesoEstrellasPerfil"
+                    android:layout_width="@dimen/imagen_hueso_width"
+                    android:layout_height="@dimen/tamaño_huesito_perfil"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/huesito_amarillo_2"
+                    />
+
+            </LinearLayout>
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

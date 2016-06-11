@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutPerfilMascotas"
+    tools:context="com.rapariscode.petgram.fragments.PerfilMascotaFragment">
+
+
+    <LinearLayout
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/imPerfil"
+            android:layout_width="@dimen/foto_altura"
+            android:layout_height="@dimen/foto_altura"
+            android:src="@drawable/mascota01"
+            app:civ_border_color="#EEEEEE"
+            app:civ_border_width="4dp"
+            app:civ_shadow="true"
+            app:civ_shadow_radius="10"
+            android:layout_gravity="center"
+            app:civ_shadow_color="#8BC34A"/>
+
+
+        <TextView
+            android:id="@+id/tvNombreMascotaSeleccionada"
+            android:text="Jacky"
+            android:textSize="@dimen/cardView_text_size"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerViewPerfilMascotas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</FrameLayout>
